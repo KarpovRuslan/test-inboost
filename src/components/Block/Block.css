@@ -1,0 +1,25 @@
+.react-flow__node-custom {
+    width: 241px;
+    background-color: transparent;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 15%), 0 2px 4px -1px rgb(0 0 0 / 8%);
+    border-radius: 0.66px;
+  }
+  
+  .react-flow__node-custom .react-flow__handle {
+    top: 20px;
+    right: -6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #778899;
+  }
+  
+  .react-flow__node.circle {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
